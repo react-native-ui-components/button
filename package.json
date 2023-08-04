@@ -1,6 +1,6 @@
 {
 	"name": "@react-native-ui-components/button",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "src/index.js",
 	"types": "src/index.d.ts",
 	"repository": "git@github.com:react-native-ui-components/button.git",
@@ -16,7 +16,8 @@
 	},
 	"peerDependencies": {
 		"react": "*",
-		"react-native": "*"
+		"react-native": "*",
+		"@react-native-ui-components/label": "*"
 	},
 	"devDependencies": {
 		"@react-native-ui-components/eslint-config": "^1.0.3",

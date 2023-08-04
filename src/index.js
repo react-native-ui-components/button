@@ -1,5 +1,7 @@
 import {TouchableOpacity} from "react-native";
-import {Label} from "../layout/Label";
+import {Label} from "@react-native-ui-components/label";
+
+//todo use native component and remove label peer dependency
 
 export const Button = ({
 	title,
@@ -24,13 +26,13 @@ export const Button = ({
 				},
 				large: {}
 			}[size ?? "medium"],
-			props.style
+			rest.style
 		]}
 		key={String(title)}
 	>
 		<Label
 			style={{
-				color: color ? color : disabled ? "#999999" : colors.blue
+				color: color ? color : disabled ? "#999999" : "blue"
 			}}
 			bold={preferred}
 		>
