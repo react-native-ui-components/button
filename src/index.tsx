@@ -1,7 +1,14 @@
-import {TouchableOpacity} from "react-native";
+import {TouchableOpacity, type TouchableOpacityProps} from "react-native";
 import {Label} from "@react-native-ui-components/label";
 
-//todo use native component and remove label peer dependency
+interface ButtonProps extends TouchableOpacityProps {
+	title?: string;
+	disabled?: boolean;
+	preferred?: boolean;
+	size?: "small" | "medium" | "large";
+	fillColor?: string;
+	color?: string;
+}
 
 export const Button = ({
 	title,
@@ -10,8 +17,9 @@ export const Button = ({
 	size,
 	fillColor,
 	color,
+	style,
 	...rest
-}) => (
+}: ButtonProps) => (
 	<TouchableOpacity
 		{...rest}
 		style={[
@@ -26,9 +34,8 @@ export const Button = ({
 				},
 				large: {}
 			}[size ?? "medium"],
-			rest.style
+			style
 		]}
-		key={String(title)}
 	>
 		<Label
 			style={{
