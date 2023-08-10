@@ -38,12 +38,11 @@ export const Button = ({
 		]}
 	>
 		<Label
+      title={title}
+      bold={preferred}
 			style={{
 				color: color ? color : disabled ? "#999999" : "blue"
 			}}
-			bold={preferred}
-		>
-			{title}
-		</Label>
+		/>
 	</TouchableOpacity>
 );
