@@ -2109,10 +2109,10 @@
   resolved "https://registry.yarnpkg.com/@react-native-ui-components/color/-/color-1.0.1.tgz#aa0cfab48d6d287a6ab160762576de12f7e46c24"
   integrity sha512-klvVAvw44naRgPGf32Wu438y1pimyBcBNUMW0lK/kqIqdMwNanjZtE2ioeE3MHBQBlChzpnhmrS38PHgGm+Gag==
 
-"@react-native-ui-components/eslint-config@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@react-native-ui-components/eslint-config/-/eslint-config-1.0.4.tgz#f16670a40ed2d1c57f17b93fe2f854c6b6c2985f"
-  integrity sha512-MX3vTW8BjQi//5sjG86rikINiphkATO7vdxSFLKS7iUcBiqBEAyzfI4rhNOU7CNNSb7qr7zxTyV2N9qiB9v8OA==
+"@react-native-ui-components/eslint-config@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@react-native-ui-components/eslint-config/-/eslint-config-1.0.5.tgz#b26ceefe4b9dbc36b6abe56a56423f6b0f8a43cb"
+  integrity sha512-GmczVLDp1Ly8SreAAFv9Fx/r9vfXFKkBMVHvU0EsMqrk+XP3dKEBW9EZL89aAOt1QqdxkUmWttEexGxYrqKnvw==
   dependencies:
     "@react-native-community/eslint-config" "^3.2.0"
 
