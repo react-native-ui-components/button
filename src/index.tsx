@@ -38,8 +38,8 @@ export const Button = ({
 		]}
 	>
 		<Label
-      title={title}
-      bold={preferred}
+			title={title}
+			bold={preferred}
 			style={{
 				color: color ? color : disabled ? "#999999" : "blue"
 			}}
