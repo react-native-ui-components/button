@@ -137,6 +137,6 @@
 	},
 	"dependencies": {
 		"@react-native-ui-components/color": "^1.0.1",
-		"@react-native-ui-components/label": "^1.0.1"
+		"@react-native-ui-components/label": "^1.1.0"
 	}
 }
