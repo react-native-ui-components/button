@@ -24,7 +24,7 @@ export const Button = ({
 		{...rest}
 		style={[
 			{
-				backgroundColor: fillColor,
+				backgroundColor: fillColor ?? "transparent",
 				borderRadius: 8
 			},
 			{
