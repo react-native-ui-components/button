@@ -1,4 +1,8 @@
-import {TouchableOpacity, type TouchableOpacityProps} from "react-native";
+import {
+	TouchableOpacity,
+	type TouchableOpacityProps,
+	type ColorValue
+} from "react-native";
 import {Label} from "@react-native-ui-components/label";
 
 export interface ButtonProps extends TouchableOpacityProps {
@@ -6,8 +10,8 @@ export interface ButtonProps extends TouchableOpacityProps {
 	disabled?: boolean;
 	preferred?: boolean;
 	size?: "small" | "medium" | "large";
-	fillColor?: string;
-	color?: string;
+	fillColor?: ColorValue;
+	color?: ColorValue;
 }
 
 export const Button = ({
@@ -24,7 +28,7 @@ export const Button = ({
 		{...rest}
 		style={[
 			{
-				backgroundColor: fillColor ?? "transparent",
+				backgroundColor: fillColor,
 				borderRadius: 8
 			},
 			{
