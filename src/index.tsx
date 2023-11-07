@@ -1,7 +1,7 @@
 import {TouchableOpacity, type TouchableOpacityProps} from "react-native";
 import {Label} from "@react-native-ui-components/label";
 
-interface ButtonProps extends TouchableOpacityProps {
+export interface ButtonProps extends TouchableOpacityProps {
 	title?: string;
 	disabled?: boolean;
 	preferred?: boolean;
